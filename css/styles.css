@@ -1,3 +1,31 @@
+/* Primary Header */
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #8E5C5D;
+}
+
+/* Body Text */
+
+
+p {
+	font-family: 'Indie Flower', cursive;
+	color: #F25F8B;
+}
+
+/* Baseline Links */
+
+a:link,
+a:visited {
+	border-bottom: double double orange 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	background: orange;
+}
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
