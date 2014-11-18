@@ -10,6 +10,7 @@ h1 {
 p {
 	font-family: 'Indie Flower', cursive;
 	color: #F25F8B;
+	background: url("../img/upfeathers.png");
 }
 
 /* Baseline Links */
@@ -49,6 +50,17 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background: #8E5C5D;
+}
+
+.color-2 {
+	background: #F25F8B;
+}
+
+.pattern-1 {
+	background: url("../img/upfeathers.png");
+}
 
 /* Show Grid */
 .showgrid {
