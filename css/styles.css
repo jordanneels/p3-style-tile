@@ -1,17 +1,24 @@
 /* Primary Header */
 h1 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: #8E5C5D;
+	font-family: 'Cinzel Decorative', cursive;
+	color: #C4634F;
+}
+
+/* Secondary Header */
+
+h2 {
+	font-family: 'Cinzel', serif;
+	color: #25356F;
 }
 
 /* Body Text */
 
 
 p {
-	font-family: 'Indie Flower', cursive;
-	color: #F25F8B;
+	font-family: 'Calibri';
+	color: #767676;
 	background: url("../img/upfeathers.png");
-}
+}s
 
 /* Baseline Links */
 
@@ -51,16 +58,29 @@ section {
 }
 
 .color-1 {
-	background: #8E5C5D;
+	background: #C4634F;
 }
 
 .color-2 {
-	background: #F25F8B;
+	background: #25356F;
+}
+
+.color-3 {
+	background: #767676;
 }
 
 .pattern-1 {
-	background: url("../img/upfeathers.png");
+	background: url("../img/light_grey.png");
 }
+
+.pattern-2 {
+	background: url("../img/wild_flowers.png");
+}
+
+.pattern-3 {
+	background: url("../img/grey_wash_wall.png");
+}
+
 
 /* Show Grid */
 .showgrid {
