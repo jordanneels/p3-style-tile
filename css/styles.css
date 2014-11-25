@@ -1,3 +1,17 @@
+.banner {
+	background-color: #C4634F;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+body {
+	background: url("../img/grey_wash_wall.png");
+}
+
+.container {
+	background-color: #F5EDE0;
+}
+
 /* Primary Header */
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
@@ -11,6 +25,12 @@ h2 {
 	color: #25356F;
 }
 
+/* Logo */
+
+img {
+	margin: 10px;
+}
+
 /* Body Text */
 
 
@@ -18,25 +38,19 @@ p {
 	font-family: 'Calibri';
 	color: #767676;
 	background: url("../img/upfeathers.png");
-}s
+}
 
 /* Baseline Links */
 
-a:link,
-a:visited {
-	border-bottom: double double orange 2px;
-	text-transform: uppercase;
+a:active {
+	color: #000;
 	text-decoration: none;
-}
-
-a:hover {
-	background: orange;
 }
 
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1, h2, h3, p, em {
+	margin: 10px;
 }
 
 /* Layout for Style Tile*/
@@ -79,10 +93,4 @@ section {
 
 .pattern-3 {
 	background: url("../img/grey_wash_wall.png");
-}
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
 }
