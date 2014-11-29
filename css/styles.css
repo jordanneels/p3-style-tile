@@ -21,20 +21,23 @@ body {
 
 /* Primary Header */
 h1 {
-	font-family: 'Cinzel Decorative', cursive;
 	color: #8C201F;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 /* Secondary Header */
 
 h2 {
-	font-family: 'Droid Serif', serif;
 	color: #C4634F;
+	font-family: 'Droid Serif', serif;
+
 }
 
-h3 {
-	font-family: 'Droid Serif', serif;
+/* Paragraph */
+
+p {
 	color: #767676;
+	font-family: 'Calibri', serif;
 }
 
 /* Logo */
@@ -46,15 +49,16 @@ img {
 /* Body Text */
 
 
-p {
-	font-family: 'Calibri';
-	color: #000;
+section p {
 	background: url("../img/upfeathers.png");
+	color: #000;
+	font-family: 'Calibri';
+	line-height: 25px;
 }
 
 /* Baseline Links */
 
-a:active {
+p a:active {
 	color: #000;
 	text-decoration: none;
 }
