@@ -9,20 +9,32 @@ body {
 }
 
 .container {
-	background-color: #F5EDE0;
+	background-color: #F6EEE4;
+	height: 1000px;
+}
+
+.footer {
+	margin-top: 100px;
+	margin-bottom: -100px;
+	text-align: center;
 }
 
 /* Primary Header */
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
-	color: #C4634F;
+	color: #8C201F;
 }
 
 /* Secondary Header */
 
 h2 {
-	font-family: 'Cinzel', serif;
-	color: #25356F;
+	font-family: 'Droid Serif', serif;
+	color: #C4634F;
+}
+
+h3 {
+	font-family: 'Droid Serif', serif;
+	color: #767676;
 }
 
 /* Logo */
@@ -36,7 +48,7 @@ img {
 
 p {
 	font-family: 'Calibri';
-	color: #767676;
+	color: #000;
 	background: url("../img/upfeathers.png");
 }
 
@@ -72,11 +84,11 @@ section {
 }
 
 .color-1 {
-	background: #C4634F;
+	background: #8C201F;
 }
 
 .color-2 {
-	background: #25356F;
+	background: #C4634F; 
 }
 
 .color-3 {
